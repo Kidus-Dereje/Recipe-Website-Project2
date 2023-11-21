@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    align-items: center;
+    padding: 30px;
+    position: inherit;
+}
+header h1{
+    width: 70%;
+    font-weight: bolder;
+}
+header nav{
+    width: 20%;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header nav ul li{
+    padding: 0px 12px 0px 12px;
+    list-style: none;
+    justify-content: space-evenly;
+    transition: all 0.3s;
+    border-radius: 30px;
+}
+header nav ul li:hover{
+    transform: scale(1.35);
+    background-color: white;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+header nav ul li a:link{
+    color: black;
+}
+header nav ul li a:visited{
+    color: black;
+}
+header nav ul li a:active{
+    color: black;
+}
+main{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+main h2{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+
+}
+footer{
+    padding: 40px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #eee;
+}
+.container{
+    margin: 0 auto;
+    max-width: 400px;
+    transition: all 0.3s;
+    background-color: #f2f2f2;
+    justify-content: center;
+    border-radius: 30px;
+    position: static;
+}
+.container:hover{
+    transform: scale(1.33);
+}
+.container img{
+    margin-left: 0px;
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 20px;
+    position: static;
+}
+.container h5,h6{
+    margin-left: 23px;
+    position: static;
+}
+.container h5{
+    font-size:25px;
+    font-weight: bolder;
+}
+.container h6{
+    font-size: 17px;
+}
+.container a{
+    text-decoration: none;
+}
+
+.container h6 a:link{
+    color: red;
+}
+.container h6 a:visited{
+    color: red;
+}
+.container h6 a:active{
+    color: red;
+}

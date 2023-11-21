@@ -1,0 +1,11 @@
+display properties
+ - flex
+ - justify-content
+ - bootstrap
+ - color schemes
+ - flex-wrap
+ - align-items
+ - transition css property(ease)
+ - transform(scale)
+ - hover animations
+ - border radius
