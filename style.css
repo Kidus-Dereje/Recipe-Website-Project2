@@ -4,22 +4,46 @@
     padding: 0;
     font-family: poppins;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
 header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #f2f2f2;
     align-items: center;
     padding: 30px;
-    position: inherit;
 }
 header h1{
-    width: 70%;
     font-weight: bolder;
 }
-header nav{
-    width: 20%;
+form{
+    padding: 10px 5px;
+    box-shadow: inset 0px 0px 8px 1px rgba(0, 0, 0, 0.355);
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
+form i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.548);
+}
+input{
+    width: 300px;
+    padding: 5px 5px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: black;
+    }
 header nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -48,10 +72,11 @@ header nav ul li a:visited{
 header nav ul li a:active{
     color: black;
 }
+/*Main Content Style Code*/
 main{
-    margin: 0 auto;
+    margin-inline: auto;
     max-width: 1200px;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
     margin-top: 50px;
 }
 main h2{
@@ -61,44 +86,39 @@ main h2{
 }
 section{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin-inline: auto;
     max-width: 1200px;
     background-color: #f2f2f2;
     border-radius: 30px;
-
 }
 footer{
-    padding: 40px;
-    position:static;
-    bottom: 0;
+    padding: 40px 0px;
     width: 100%;
     text-align: center;
     background-color: #eee;
 }
 .container{
-    margin: 0 auto;
-    max-width: 400px;
+    /*max-width: 400px;*/
     transition: all 0.3s;
     background-color: #f2f2f2;
-    justify-content: center;
     border-radius: 30px;
-    position: static;
+    width: 400px;
 }
 .container:hover{
-    transform: scale(1.33);
+    transform: scale(1.15);
 }
 .container img{
-    margin-left: 0px;
     width: 300px;
     height: 200px;
     border-radius: 30px;
-    padding: 20px;
-    position: static;
+    margin-left: 50px;
+    padding: 10px 0px;
 }
 .container h5,h6{
-    margin-left: 23px;
-    position: static;
+    margin-left: 53px;
 }
 .container h5{
     font-size:25px;
